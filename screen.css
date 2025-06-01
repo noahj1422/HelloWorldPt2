@@ -14,9 +14,7 @@ main {
 }
 
 .masthead {
-    background-image: url("images/mac.jpg");
-    background-size: cover;
-    background-position: bottom;
+    background: no-repeat bottom / cover url("images/mac1.jpg");
     height: 250px;
     border-radius: 20px;
 }
@@ -35,11 +33,11 @@ main {
 }
 
 .details section p {
-    margin: 20px;
+    margin: 25px;
 }
 
 .details section h2 {
-    margin: 20px;
+    margin: 25px;
 }
 
 .details section.with-code {
